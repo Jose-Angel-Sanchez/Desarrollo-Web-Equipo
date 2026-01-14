@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Desarrollo de aplicaciones Web</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      line-height: 1.6;
+    }
+    .card {
+      max-width: 600px;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 12px;
+    }
+    button {
+      padding: 10px 14px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    button:hover {
+      opacity: 0.9;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h1>Nombre del curso: Desarrollo de aplicaciones Web</h1>
+
+    <h2>Integrantes del equipo</h2>
+    <ul>
+      <li>Carlos Mauricio Valadez </li>
+      <li>Jose Angel Cambranis</li>
+      <li>Angel Desiderio Hernandez Sanchez</li>
+      <li>Gonzalo Montiel Santos</li>
+    </ul>
+
+    <button id="btnBienvenida">Texto de bienvenida</button>
+  </div>
+
+  <script>
+    const boton = document.getElementById("btnBienvenida");
+
+    boton.addEventListener("click", () => {
+      alert("Bienvenidos al curso");
+    });
+  </script>
+
+</body>
+</html>
