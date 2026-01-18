@@ -1,12 +1,10 @@
 # Desarrollo de Aplicaciones Web - Equipo
 
-Una página web interactiva para presentar el equipo de desarrollo web con animaciones 3D, modal de tecnologías, carrusel infinito y efectos paralax.
+Una página web interactiva para presentar el equipo de desarrollo web con animaciones 3D, modal de tecnologías, carrusel infinito.
 
 ## Características
 
-- **Fondo animado 3D** con líneas flotantes usando Three.js
-- **ChromaGrid responsivo** con tarjetas interactivas de equipo
-- **Efectos paralax** al pasar el mouse sobre las tarjetas
+- **Fondo animado 3D** Watter effect usando Three.js
 - **Modal dinámico** con sistema de tabs para categorías de tecnologías
 - **Carrusel infinito** con links a sitios web populares para desarrolladores
 - **Notificaciones tipo toast** con mensajes personalizados
